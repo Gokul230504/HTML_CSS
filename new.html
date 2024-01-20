@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gokul Raj - Portfolio</title>
+    <style>
+       body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color:orange;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            margin: 20px 0;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        section {
+            margin-top: 40px;
+        }
+
+        fieldset {
+            background-color: #00796b;
+            border: none;
+            border-radius: 10px;
+            margin: 20px 0;
+            padding: 20px;
+            color: #fff;
+        }
+
+        h2 {
+            color:#00796b;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        li:hover {
+            background-color: #eee;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+            border-radius: 5px;
+            border: 1px solid #00796b;
+        }
+        button {
+            background-color: #00796b;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: #005a4a;
+        }
+        section:nth-child(4),
+        section:nth-child(6) {
+            margin-top: 40px;
+        }
+
+        section:nth-child(5),
+        section:nth-child(7) {
+            margin-top: 20px;
+        }
+
+        section:nth-child(4) h2,
+        section:nth-child(6) h2 {
+            color: #00796b;
+            margin-bottom: 10px;
+        }
+
+        section:nth-child(4) p,
+        section:nth-child(6) ul {
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        section:nth-child(5) ul,
+        section:nth-child(7) ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        section:nth-child(5) li,
+        section:nth-child(7) li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        section:nth-child(5) li:hover,
+        section:nth-child(7) li:hover {
+            background-color: #eee;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .flex-item {
+            flex: 0 0 30%; /* Adjust the width as needed */
+            margin-bottom: 20px;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        }
+
+        .fade-in.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .navbar {
+            background-color: #00796b;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#skills">Skill Sets</a>
+        <a href="#participations">Participations</a>
+        <a href="#internships">Internships</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#personal">Personal Details</a>
+        <a href="#contact">Contact Me</a>
+    </div>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate Electronics and Communication Engineering student at Kongu Engineering College.
+                My focus is on developing innovative solutions in the medtech and biotech space using embedded and IoT
+                technologies. Proficient in programming languages such as Java, C, HTML, and CSS, I create projects
+                that address real-world problems and needs.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skill Sets</h2>
+            <ul>
+                <li>Java</li>
+                <li>C</li>
+                <li>PCB design</li>
+                <li>HTML, CSS</li>
+                <li>MATLab</li>
+            </ul>
+        </section>
+        <div class="flex-container">
+            <div class="flex-item fade-in">
+                <section>
+                    <h2>Participations</h2>
+                    <ul>
+                        <li>Participation in XYZ Competition - 2022</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="flex-item fade-in">
+                <section>
+                    <h2>Internships</h2>
+                    <ul>
+                        <li>Internship at ABC Company - Summer 2023</li>
+                        <!-- Add more internship items here -->
+                    </ul>
+                </section>
+            </div>
+
+            <div class="flex-item fade-in">
+                <section>
+                    <h2>Achievements</h2>
+                    <ul>
+                        <li>Achievement in DEF Conference - 2024</li>
+                        <!-- Add more achievement items here -->
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <section id="personal">
+            <h2>Personal Details</h2>
+            <p><strong>Name:</strong> Gokul Raj L</p>
+            <p><strong>Email:</strong>gokulrajl.21ece@kongu.edu</p>
+            <p><strong>Contact No.:</strong>+91 6381078919</p>
+            <p><strong>LinkedIn :</strong><a href="url">linkedin.com/in/gokul-raj-l-21a4081ab</a></p>
+            <p><strong>GitHub :</strong><a href="url">https://github.com/Gokul230504</a></p>
+        </section><br>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <fieldset>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="phone">Contact No.:</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="message">Message:</label>
+                    <input type="text" id="message" name="message">
+
+                    <button type="submit">Submit</button>
+                </form>
+            </fieldset>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Gokul Raj Loganathan | <a href="url">LinkedIn</a> | <a href="url">GitHub</a></p>
+    </div>
+
+    <script>
+        // Add JavaScript to trigger animations
+        document.addEventListener('DOMContentLoaded', function () {
+            var fadeIns = document.querySelectorAll('.fade-in');
+
+            function checkInView() {
+                fadeIns.forEach(function (element) {
+                    var bounding = element.getBoundingClientRect();
+                    if (
+                        bounding.top >= 0 &&
+                        bounding.left >= 0 &&
+                        bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
+                        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+                    ) {
+                        element.classList.add('active');
+                    }
+                });
+            }
+
+            document.addEventListener('scroll', checkInView);
+            document.addEventListener('resize', checkInView);
+            checkInView();
+        });
+    </script>
+</body>
+
+</html>
